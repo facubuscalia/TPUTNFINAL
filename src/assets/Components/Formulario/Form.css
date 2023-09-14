@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+
+
+/* contactos */
+
+.formleft {
+    background-image: url('https://img.freepik.com/fotos-premium/fastfood-nuggets-fritos-pollo-sarten-fondo-madera-vista-superior-copie-espacio_89816-34222.jpg?w=740');
+    font-family: 'Quicksand', sans-serif;
+    width: 600px;
+}
+
+.contenido {
+    color: white;
+}
+
+.form {
+    display: flex;
+    margin-top: -86px;
+    height: 450px;
+}
+
+.title {
+    color: white;
+    margin-left: 20px;
+    letter-spacing: 0px;
+}
+
+.mensaje,
+.telefono,
+.ubicacion {
+    width: 350px;
+    display: flex;
+}
+
+.menimage,
+.telimage,
+.ubiimage {
+    height: 30px;
+}
+
+.ubiimage {
+    margin: 15px 15px 15px 50px;
+}
+
+.telimage {
+    margin: 15px 15px 15px 50px;
+}
+
+.menimage {
+    margin: 15px 15px 15px 50px;
+}
+
+.imgcont {
+    display: flex;
+    margin: 20px 0px 20px 100px;
+    height: 40px;
+}
+
+.whatsapp,
+.facebook,
+.instagram:hover {
+    cursor: pointer;
+}
+
+.whatsapp,
+.facebook,
+.instagram {
+    margin-right: 25px;
+}
+
+
+/* form */
+.separate {
+    display: flex;
+}
+
+.formulario {
+    font-family: 'Quicksand', sans-serif;
+    width: 623px;
+    margin: 0 auto;
+    font-size: 13px;
+    padding: 20px;
+}
+
+.nome,
+.telefone,
+.email,
+.mensagem {
+    margin-bottom: 30px;
+}
+
+.email,
+.mensagem {
+    display: grid;
+    margin-right: 30px;
+}
+
+.tokc {
+    width: 257px;
+}
+
+.tock:hover{
+    cursor: pointer;
+}
+
+.tock {
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(230, 230, 230);
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.btn {
+    width: 200px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #edae51;
+    color: white;
+}
